@@ -142,7 +142,7 @@ int main()
     printf("cate muchii are graful?");
     scanf("%d", &edg_nr);
 
-    GPH *g = create_g(&nrv);
+    GPH *g = create_g(nrv);
 
     STK *s1 = create_s(2 * nrv);
     STK *s2 = create_s(2 * nrv);
